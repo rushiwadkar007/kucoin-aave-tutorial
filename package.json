@@ -1,0 +1,28 @@
+{
+  "name": "kucoin-aave-crypto-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rushiwadkar007/kucoin-trading-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rushiwadkar007/kucoin-trading-bot/issues"
+  },
+  "homepage": "https://gitlab.com/rushiwadkar007/kucoin-trading-bot#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "ccxt": "^1.78.57",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
